@@ -1,0 +1,17 @@
+.ingredients__items{
+    width: auto;
+    text-align: center;
+    margin: 1rem;
+    
+    .ingredients-picture{
+        position: relative;
+        overflow: hidden;
+        display: block;
+
+        .img-ingredients{
+            border-radius: 100%;
+        }
+    }
+}
+
+

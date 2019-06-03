@@ -1,0 +1,46 @@
+.header-link:hover {
+    background-color: rgb(119, 151, 107);
+    color: rgb(255, 255, 255);
+}
+
+.header-link{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px;
+    color:black;
+    background-color: rgb(162, 200, 231);
+    margin:-10px -25px -15px 20px ;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.header{
+    background-color: #fafafa;
+    border-bottom: 2px solid #cfcdcd;
+    padding: 1rem 2rem;
+    height: 4.1rem;
+    justify-content: space-between;
+    width: 107.6%;
+    margin-left:-2em; 
+
+    img{
+        height: 40px;
+        width: 100px;
+        float: right;
+    }
+
+    ul{
+        margin-left: -4em;
+
+        li{
+            list-style:none;
+            display: inline-block;
+            margin-right: 1em;
+
+            .header-link{
+                text-decoration: none;
+                float: left;
+            }
+        }
+    }
+}

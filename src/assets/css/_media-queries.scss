@@ -1,0 +1,93 @@
+
+/*MEDIA QUERIES*/
+@media (max-width: 750px){
+
+  .section__recipes-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+
+    .section__recipes__item {
+      width: auto;
+      border: 1px solid #e6e6e6;
+      max-width: 100%;
+      font-size: 1.8rem;
+
+      article{
+        margin-bottom: 0.1em;
+      }
+
+      .article__receta-vistaprev-desc{
+        font-size: 1.4rem;
+        border-bottom: 1px solid #e6e6e6;;
+      }
+
+      .link__cheffName{
+        font-size: 1.3rem;
+      }
+
+      .span__prepTime{
+        font-size: 1.5rem;
+        color:black;
+      }
+      
+      .img-chefs{
+        height: 50px;
+        width: 50px;  
+      }
+
+      .link_informChef{
+        border-top:none;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .section__recipes-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+
+    .section__recipes__item {
+      width: auto;
+      border: 1px solid #e6e6e6;
+      max-width: 100%;
+      font-size: 1.4rem;
+
+      article{
+        margin-bottom: 0.1em;
+      }
+
+      .article__receta-vistaprev-desc{
+        font-size: 1.2rem;
+        border-bottom: 1px solid #e6e6e6;;
+      }
+
+      .link__cheffName{
+        font-size: 1.1rem;
+      }
+
+      .span__prepTime{
+        font-size: 1.1rem;
+        color:black;
+      }
+      
+      .img-chefs{
+        height: 50px;
+        width: 50px;  
+      }
+
+      .link_informChef{
+        border-top:none;
+      }
+    }
+  }
+
+  .img-detalle-rec{
+    margin-left: 10px;
+    max-width: auto;
+    overflow: hidden;
+    margin-left: 10em;
+ }
+}

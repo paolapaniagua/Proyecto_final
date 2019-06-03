@@ -1,0 +1,17 @@
+.section__titulo{
+    font-size: 2.2rem;
+    margin-top: 30px;
+    margin-bottom: .3em;
+    font-weight: 300;
+}
+
+.section__recipes-conteiner{
+    display: flex;
+    margin-left: -1.4rem;   
+}
+
+.section__ingredients-conteiner{
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+}

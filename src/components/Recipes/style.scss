@@ -1,0 +1,80 @@
+.section__recipes__item {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  width: 31.5%;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 3rem;
+  margin-top: 1.2rem;   
+  margin-left: 1.2rem;   
+
+  .img-receta{
+    height: 10em;
+    width: 100%;
+  }
+
+  .recipe-title{
+    font-weight: 300;
+    color: #000;
+    margin-bottom:0.5em;
+    margin-top:0;
+    margin-left: 0.5em;
+    text-decoration: none;
+  }
+
+  .article__receta-vistaprev-rating{
+    margin-bottom: .3em;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    margin-left:0.5em;
+  }
+  
+  .article__receta-vistaprev-desc{
+    font-size: .9rem;
+    color: #737373;
+    margin-bottom: .3em;
+    margin-left:0.5em;
+  }
+
+  .article__receta-vistaprev-link{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .link_informChef{
+    display: flex;
+    margin-right: .5em;
+    border-top: 1px solid #e6e6e6;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  .link__cheffName{
+    margin-top:1em;
+    color: inherit;
+    font-size: .9rem;
+    color: #737373;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+.img-chefs{
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin: 0.5em 0.5em 0 0.5em;
+}
+
+.span__prepTime{
+  display: block;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid #d8d0d0;
+  font-size: .9rem;
+  color:black;
+  padding-right: 1em;
+}
